@@ -30,7 +30,7 @@
             <li>Amla Powder</li>
             <li>Bulk supply enquiries</li>
             <li>Custom trade support</li>
-        </ul><a class="btn btn-outline" href="contact.html">Request a quote <b>↗</b></a>
+        </ul><a class="btn btn-outline" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request a quote <b>↗</b></a>
         </div>
     </aside>
     </div>

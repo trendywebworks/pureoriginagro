@@ -13,17 +13,17 @@
           <p>India · Global Trade<br>Serving international markets</p>
         </div>
         <div>
-          <p><a href="mailto:info@sjglobalboat.com">info@sjglobalboat.com</a><br><a href="contact.html">Request a quote
+          <p><a href="mailto:info@pureoriginagro.com">info@pureoriginagro.com</a><br><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request a quote
               ↗</a></p>
         </div>
         <ul class="footer-socials">
-          <li><a href="contact.html">LinkedIn</a></li>
-          <li><a href="contact.html">Facebook</a></li>
-          <li><a href="contact.html">Instagram</a></li>
-          <li><a href="contact.html">Youtube</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">LinkedIn</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Facebook</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Instagram</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Youtube</a></li>
         </ul>
         <div class="footer-copyright">
-          <p>© <b>SJ Global Boat.</b><br><?php echo date("Y"); ?>. All Rights Reserved.</p>
+          <p>© <b>Pure Origin Agro.</b><br><?php echo date("Y"); ?>. All Rights Reserved.</p>
         </div>
       </div>
     </div>

@@ -80,7 +80,7 @@ get_header();
         <div>
           <div class="label">Start with a requirement</div>
           <h2>Tell us what you need sourced.</h2>
-        </div><a class="btn btn-outline" href="contact.html">Send enquiry <b>↗</b></a>
+        </div><a class="btn btn-outline" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Send enquiry <b>↗</b></a>
       </div>
     </section>
 
