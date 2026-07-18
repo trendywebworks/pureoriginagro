@@ -3,15 +3,16 @@
 
 // WP MENUS
 add_action( 'after_setup_theme', 'wpt_setup' );
-if ( ! function_exists( 'wpt_setup' ) ):
+if ( ! function_exists( 'wpt_setup' ) ) {
 	function wpt_setup() {
 		register_nav_menu( 'main_nav', __( 'Main Navigation', 'wptuts' ) );
-        register_nav_menu( 'footer_nav_1', __( 'Footer Navigation 1', 'wptuts' ) );
-        register_nav_menu( 'footer_nav_2', __( 'Footer Navigation 2', 'wptuts' ) );
-        register_nav_menu( 'footer_nav_3', __( 'Footer Navigation 3', 'wptuts' ) );
-        register_nav_menu( 'footer_nav_4', __( 'Footer Navigation 4', 'wptuts' ) );
-        register_nav_menu( 'footer_nav_5', __( 'Footer Navigation 5', 'wptuts' ) );
-	} endif;
+		register_nav_menu( 'footer_nav_1', __( 'Footer Navigation 1', 'wptuts' ) );
+		register_nav_menu( 'footer_nav_2', __( 'Footer Navigation 2', 'wptuts' ) );
+		register_nav_menu( 'footer_nav_3', __( 'Footer Navigation 3', 'wptuts' ) );
+		register_nav_menu( 'footer_nav_4', __( 'Footer Navigation 4', 'wptuts' ) );
+		register_nav_menu( 'footer_nav_5', __( 'Footer Navigation 5', 'wptuts' ) );
+	}
+}
 
 
 /* GET ACTIVE CLASS */
@@ -44,7 +45,6 @@ return implode(' ', array_slice($words, 0, $limit));
 
 // ///////////////////////////// TO SHOW FEATURED IMAGE OPTION IN WP ADMIN ///////////////////////////
 add_theme_support( 'post-thumbnails' );
-add_image_size($name, $width, $height, $crop);
 
 // ///////////////////////////// FOR DIFFERENT SIZE OF FEATURED IMAGES ///////////////////////////
 if ( function_exists( 'add_theme_support' ) ) {
