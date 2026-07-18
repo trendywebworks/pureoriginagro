@@ -1,6 +1,6 @@
 <section id="about">
     <div class="wrap about reveal">
-    <div class="about-photo"><img src="assets/images/quality.webp" alt="Fresh agricultural produce">
+    <div class="about-photo"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/quality.webp' ); ?>" alt="Fresh agricultural produce">
         <div class="about-tag"><b>India → World</b><span>Rooted in agricultural abundance. Ready for your next
             formulation.</span></div>
     </div>

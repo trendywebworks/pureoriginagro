@@ -6,12 +6,17 @@ add_action( 'after_setup_theme', 'wpt_setup' );
 if ( ! function_exists( 'wpt_setup' ) ) {
 	function wpt_setup() {
 		register_nav_menu( 'main_nav', __( 'Main Navigation', 'wptuts' ) );
-		register_nav_menu( 'footer_nav_1', __( 'Footer Navigation 1', 'wptuts' ) );
-		register_nav_menu( 'footer_nav_2', __( 'Footer Navigation 2', 'wptuts' ) );
-		register_nav_menu( 'footer_nav_3', __( 'Footer Navigation 3', 'wptuts' ) );
-		register_nav_menu( 'footer_nav_4', __( 'Footer Navigation 4', 'wptuts' ) );
-		register_nav_menu( 'footer_nav_5', __( 'Footer Navigation 5', 'wptuts' ) );
 	}
+}
+
+function pure_origin_fallback_main_menu() {
+	echo '<ul id="main-menu" class="main-menu-list">';
+	echo '<li><a href="' . esc_url( home_url( '/' ) ) . '">Home</a></li>';
+	echo '<li><a href="' . esc_url( home_url( '/about/' ) ) . '">About Us</a></li>';
+	echo '<li><a href="' . esc_url( home_url( '/services/' ) ) . '">Services</a></li>';
+	echo '<li><a href="' . esc_url( home_url( '/products/' ) ) . '">Products</a></li>';
+	echo '<li><a href="' . esc_url( home_url( '/contact/' ) ) . '">Contact</a></li>';
+	echo '</ul>';
 }
 
 
