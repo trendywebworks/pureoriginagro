@@ -113,14 +113,14 @@ header.stuck {
     font-size: 17px
 }
 
-nav {
+.nav nav {
     display: flex;
     gap: 34px;
     font-size: 14px;
     font-weight: 700
 }
 
-nav ul {
+.nav .main-menu-list {
     display: flex;
     gap: 34px;
     list-style: none;
@@ -128,15 +128,17 @@ nav ul {
     padding: 0
 }
 
-nav li {
-    margin: 0
+.nav .main-menu-list li {
+    list-style: none;
+    margin: 0;
+    padding: 0
 }
 
-nav a {
+.nav nav a {
     position: relative
 }
 
-nav a:after {
+.nav nav a:after {
     content: "";
     position: absolute;
     left: 0;
@@ -147,10 +149,10 @@ nav a:after {
     transition: .2s
 }
 
-nav a:hover:after,
-nav a.active:after,
-nav .current-menu-item>a:after,
-nav .current_page_item>a:after {
+.nav nav a:hover:after,
+.nav nav a.active:after,
+.nav nav .current-menu-item>a:after,
+.nav nav .current_page_item>a:after {
     width: 100%
 }
 

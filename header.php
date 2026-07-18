@@ -15,7 +15,7 @@
     rel="stylesheet">
   
   <?php $t=time(); ?>
-  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css?v=<?php echo($t); ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/style.css?v=' . $t ); ?>">
 
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js?v=<?php echo($t); ?>" defer></script>
 </head>
