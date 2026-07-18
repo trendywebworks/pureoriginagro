@@ -1,0 +1,125 @@
+<?php 
+/* Template Name: Products */
+get_header(); 
+?>
+
+
+    <section class="page-hero products-hero">
+      <div class="hero-media"></div>
+      <div class="wrap page-hero-copy reveal">
+        <div class="micro">Products</div>
+        <h1>Focused ingredients with<br><em>wide application potential.</em></h1>
+        <p>Our current portfolio is intentionally focused: natural dehydrated powders for brands that need clean,
+          practical and export-ready ingredient options.</p>
+      </div>
+    </section>
+    <section class="product-catalog">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="label">Ingredient portfolio</div>
+            <h2 class="heading">Three powders,<br><em>many possibilities.</em></h2>
+          </div>
+          <p class="intro">Use these product cards as placeholders until final specifications, grades and packaging
+            details are confirmed.</p>
+        </div>
+        <div class="catalog-grid reveal">
+          <article class="catalog-card"><img src="assets/images/product-onions.webp"
+              alt="Onion powder and onion ingredient">
+            <div><span>DEHYDRATED VEGETABLE</span>
+              <h3>Onion Powder</h3>
+              <p>Suitable for seasoning blends, food manufacturing, sauces, snacks and ready-to-cook applications.</p>
+              <ul>
+                <li>Bulk supply enquiries</li>
+                <li>Natural flavour profile</li>
+                <li>Export-ready coordination</li>
+              </ul><a class="text-arrow" href="contact.html">Request details <b>→</b></a>
+            </div>
+          </article>
+          <article class="catalog-card"><img src="assets/images/product-beetroot.webp" alt="Beetroot ingredient">
+            <div><span>DEHYDRATED VEGETABLE</span>
+              <h3>Beetroot Powder</h3>
+              <p>Known for its vibrant natural colour and formulation flexibility across food, wellness and cosmetic
+                uses.</p>
+              <ul>
+                <li>Colour-rich ingredient option</li>
+                <li>Food and wellness applications</li>
+                <li>Bulk quote support</li>
+              </ul><a class="text-arrow" href="contact.html">Request details <b>→</b></a>
+            </div>
+          </article>
+          <article class="catalog-card"><img src="assets/images/product-amla.webp" alt="Indian gooseberry amla fruit">
+            <div><span>DEHYDRATED FRUIT</span>
+              <h3>Amla Powder</h3>
+              <p>Indian gooseberry powder for product-makers seeking a distinct botanical ingredient with broad usage
+                potential.</p>
+              <ul>
+                <li>Also known as Indian gooseberry</li>
+                <li>Wellness-oriented applications</li>
+                <li>Custom enquiry support</li>
+              </ul><a class="text-arrow" href="contact.html">Request details <b>→</b></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="product-support">
+      <div class="wrap route-grid reveal">
+        <div>
+          <div class="label">Buyer support</div>
+          <h2 class="heading">Need specifications or<br><em>bulk pricing?</em></h2>
+        </div>
+        <div class="route-list">
+          <div><span>01</span>
+            <p>Share target product, quantity, destination country and packaging preferences.</p>
+          </div>
+          <div><span>02</span>
+            <p>We discuss suitable product options, quote details and availability direction.</p>
+          </div>
+          <div><span>03</span>
+            <p>We coordinate next steps for sample, documentation and shipment planning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-strip">
+      <div class="wrap reveal">
+        <div>
+          <div class="label">Product enquiries</div>
+          <h2>Ask for a product quote.</h2>
+        </div><a class="btn btn-outline" href="contact.html">Request a quote <b>↗</b></a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-shell">
+      <h2 class="footer-heading">Ingredients crafted to impact</h2>
+      <p class="footer-subtitle">Connecting India’s finest dehydrated ingredients with product-makers around the world.
+      </p>
+      <form class="signup" onsubmit="event.preventDefault()">
+        <div class="signup-row"><span class="email-icon">⌑</span><input type="email" aria-label="Your email address"
+            placeholder="Your Email Address"><button type="submit">Get Started</button></div>
+      </form>
+      <div class="footer-columns">
+        <div>
+          <p>India · Global Trade<br>Serving international markets</p>
+        </div>
+        <div>
+          <p><a href="mailto:info@sjglobalboat.com">info@sjglobalboat.com</a><br><a href="contact.html">Request a quote
+              ↗</a></p>
+        </div>
+        <ul class="footer-socials">
+          <li><a href="contact.html">LinkedIn</a></li>
+          <li><a href="contact.html">Facebook</a></li>
+          <li><a href="contact.html">Instagram</a></li>
+          <li><a href="contact.html">Youtube</a></li>
+        </ul>
+        <div class="footer-copyright">
+          <p>© <b>SJ Global Boat.</b><br>2026. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

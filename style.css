@@ -1,0 +1,16 @@
+/*
+Theme Name: Pure Origin Agro
+Theme URI: https://pureoriginagro.com
+Author: Trendy Web Works
+Author URI: https://trendywebworks.in
+Description: A custom responsive WordPress theme developed by Trendy Web Works.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pure-origin-agro
+Tags: custom-logo, custom-menu, featured-images, blog, e-commerce, responsive-layout
+*/
+@import url("assets/css/style.css");
