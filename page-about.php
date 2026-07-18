@@ -6,7 +6,7 @@ get_header();
     <section class="about-hero">
       <div class="hero-media"></div>
       <div class="wrap about-hero-copy reveal">
-        <div class="micro">About SJ Global Boat</div>
+        <div class="micro">About Pure Origin Agro</div>
         <h1>Built to help Indian ingredients<br><em>travel farther.</em></h1>
         <p>We connect dependable dehydrated fruit and vegetable powders with businesses that need natural, export-ready
           ingredients for food, wellness, pharmaceutical and cosmetic applications.</p>
@@ -22,7 +22,7 @@ get_header();
         <div class="reveal">
           <div class="label">Who we are</div>
           <h2 class="heading">A practical partner for<br><em>quality ingredient trade.</em></h2>
-          <p class="intro">SJ Global Boat was created with a simple direction: make carefully selected Indian
+          <p class="intro">Pure Origin Agro was created with a simple direction: make carefully selected Indian
             agricultural ingredients easier for global product-makers to access. We focus on clarity, consistency and a
             grounded supply experience from enquiry to shipment.</p>
           <p class="intro">Our current portfolio includes onion powder, beetroot powder and amla powder, with support
@@ -80,7 +80,7 @@ get_header();
         <div>
           <div class="label">Work with us</div>
           <h2>Ready to discuss ingredients?</h2>
-        </div><a class="btn btn-outline" href="contact.html">Contact us <b>↗</b></a>
+        </div><a class="btn btn-outline" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Contact us <b>↗</b></a>
       </div>
     </section>
   

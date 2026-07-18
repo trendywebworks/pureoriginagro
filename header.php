@@ -35,7 +35,7 @@
         ?>
       </nav>
       <div class="nav-right"><span class="micro">India · Global trade</span><a class="btn nav-cta"
-          href="contact.html">Get in touch <b>↗</b></a></div>
+          href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Get in touch <b>↗</b></a></div>
     </div>
   </header>
   <main>

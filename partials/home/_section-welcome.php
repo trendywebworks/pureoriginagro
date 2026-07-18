@@ -7,9 +7,9 @@
     <div>
         <div class="label">Our route to quality</div>
         <h2 class="heading">Good ingredients<br>move <em>with purpose.</em></h2>
-        <p class="intro">SJ Global Boat brings the honest potency of Indian-grown produce to businesses across
+        <p class="intro">Pure Origin Agro brings the honest potency of Indian-grown produce to businesses across
         international markets. Every powder is selected for purity, consistency and the confidence it gives your
-        product.</p><a class="text-arrow" href="about.html">Discover SJ Global Boat <b>→</b></a>
+        product.</p><a class="text-arrow" href="about.html">Discover Pure Origin Agro <b>→</b></a>
     </div>
     </div>
 </section>

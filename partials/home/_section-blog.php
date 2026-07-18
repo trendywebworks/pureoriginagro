@@ -2,7 +2,7 @@
     <div class="wrap">
     <div class="news-head reveal">
         <div class="label">From our journal</div>
-        <h2 class="heading">Latest insights and news<br>from <em>SJ Global Boat</em></h2>
+        <h2 class="heading">Latest insights and news<br>from <em>Pure Origin Agro</em></h2>
     </div>
     <div class="news-grid reveal">
         <article class="news-card"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/blog-1.webp' ); ?>" alt="Colourful natural powders">
