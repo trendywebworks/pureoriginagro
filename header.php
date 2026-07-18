@@ -21,8 +21,7 @@
 
 <body <?php body_class(); ?>>
   <header id="site-header">
-    <div class="wrap nav"><a class="logo" href="#home"><span class="logo-mark">✦</span><span>SJ
-          GLOBAL<br>BOAT</span></a>
+      <div class="wrap nav"><a class="logo" href="#home"><span class="logo-mark">✦</span><span>PURE ORIGIN<br>AGRO</span></a>
       <nav><a href="#home">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a
           href="products.html">Products</a><a href="contact.html">Contact</a></nav>
       <div class="nav-right"><span class="micro">India · Global trade</span><a class="btn nav-cta"
