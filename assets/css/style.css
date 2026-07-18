@@ -120,6 +120,18 @@ nav {
     font-weight: 700
 }
 
+nav ul {
+    display: flex;
+    gap: 34px;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+nav li {
+    margin: 0
+}
+
 nav a {
     position: relative
 }
@@ -136,7 +148,9 @@ nav a:after {
 }
 
 nav a:hover:after,
-nav a.active:after {
+nav a.active:after,
+nav .current-menu-item>a:after,
+nav .current_page_item>a:after {
     width: 100%
 }
 
@@ -1367,12 +1381,17 @@ footer {
 }
 
 .reveal {
+    opacity: 1;
+    transform: none
+}
+
+.js .reveal {
     opacity: 0;
     transform: translateY(24px);
     transition: opacity .8s ease, transform .8s ease
 }
 
-.reveal.show {
+.js .reveal.show {
     opacity: 1;
     transform: none
 }

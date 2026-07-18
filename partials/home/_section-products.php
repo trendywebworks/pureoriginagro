@@ -9,12 +9,12 @@
         products.</p>
     </div>
     </div>
-    <div class="product-row reveal"><a class="product-card" href="products.html"><img src="assets/images/onions.webp"
+    <div class="product-row reveal"><a class="product-card" href="products.html"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/onions.webp' ); ?>"
         alt="Onion powder ingredient">
         <div class="product-content"><span>DEHYDRATED VEGETABLE</span>
         <h3>Onion Powder</h3>
         </div>
-    </a><a class="product-card" href="products.html"><img src="assets/images/beetroot.webp"
+    </a><a class="product-card" href="products.html"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/beetroot.webp' ); ?>"
         alt="Beetroot powder ingredient">
         <div class="product-content"><span>DEHYDRATED VEGETABLE</span>
         <h3>Beetroot Powder</h3>
