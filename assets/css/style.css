@@ -1,6 +1,6 @@
 :root {
     --navy: #111b35;
-    --coral: #ff7049;
+    --coral: #3dab4b;
     --sand: #f4f0e9;
     --white: #fffefa;
     --ink: #182239;
@@ -59,7 +59,7 @@ a {
 
 .btn:hover {
     transform: translateY(-3px);
-    background: #ed5a35
+    background: #329540
 }
 
 .btn-outline {
@@ -448,7 +448,7 @@ section {
 }
 
 .products .label {
-    color: #ff9478
+    color: #7bdc86
 }
 
 .products .section-head {
@@ -502,7 +502,7 @@ section {
 .product-content span {
     font: 10px "DM Mono";
     letter-spacing: .1em;
-    color: #ffb29e
+    color: #a8e7ae
 }
 
 .product-content h3 {
@@ -522,7 +522,7 @@ section {
 .product-list p {
     font-size: 13px;
     line-height: 1.7;
-    color: #ffe7df;
+    color: #e8f8ea;
     margin: 15px 0
 }
 
@@ -609,7 +609,7 @@ section {
 }
 
 .quote .label {
-    color: #ff9478
+    color: #7bdc86
 }
 
 .quote blockquote {
@@ -802,7 +802,7 @@ section {
 .contact-form select:focus,
 .contact-form textarea:focus {
     border-color: var(--coral);
-    box-shadow: 0 0 0 3px #ff70491a
+    box-shadow: 0 0 0 3px #3dab4b1f
 }
 
 .contact-form .btn {
@@ -819,7 +819,7 @@ section {
 }
 
 .contact-details .label {
-    color: #ff9478
+    color: #7bdc86
 }
 
 .contact-details h2 {
@@ -850,7 +850,7 @@ section {
     font: 10px "DM Mono";
     letter-spacing: .12em;
     text-transform: uppercase;
-    color: #ffb29e;
+    color: #a8e7ae;
     margin-bottom: 7px
 }
 
@@ -876,7 +876,7 @@ section {
 }
 
 .contact-strip .label {
-    color: #ffe4dc
+    color: #e8f8ea
 }
 
 .contact-strip h2 {
@@ -976,7 +976,7 @@ section {
 
 .story-badge span {
     display: block;
-    color: #ffe5dc;
+    color: #e8f8ea;
     font-size: 12px;
     line-height: 1.45
 }
@@ -1027,7 +1027,7 @@ section {
 }
 
 .about-route .label {
-    color: #ff9478
+    color: #7bdc86
 }
 
 .route-grid {
@@ -1050,7 +1050,7 @@ section {
 }
 
 .route-list span {
-    color: #ff9478;
+    color: #7bdc86;
     font: 12px "DM Mono"
 }
 
@@ -1237,7 +1237,7 @@ section {
 }
 
 .product-support .label {
-    color: #ff9478
+    color: #7bdc86
 }
 
 footer {
