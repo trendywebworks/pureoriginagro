@@ -17,7 +17,9 @@ get_header();
     <div class="contact-panel reveal">
         <div class="label">Send an enquiry</div>
         <h2 class="heading">Tell us what<br><em>you need.</em></h2>
-        <?php echo apply_shortcodes( '[contact-form-7 id="247e679" title="Contact form 1"]' ); ?>
+        <div class="contact-form">
+            <?php echo apply_shortcodes( '[contact-form-7 id="247e679" title="Contact form 1"]' ); ?>
+        </div>
     </div>
     <aside class="contact-details reveal">
         <div class="label">Dummy contact details</div>
