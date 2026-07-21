@@ -4,7 +4,9 @@
       <h2 class="footer-heading">Ingredients crafted to impact</h2>
       <p class="footer-subtitle">Connecting India’s finest dehydrated ingredients with product-makers around the world.
       </p>
-      <?php echo apply_shortcodes( '[contact-form-7 id="8b26d80" title="Newsletter Form"]' ); ?>
+      <div class="footer-newsletter">
+        <?php echo apply_shortcodes( '[contact-form-7 id="8b26d80" title="Newsletter Form"]' ); ?>
+      </div>
       <div class="footer-columns">
         <div>
           <p>India · Global Trade<br>Serving international markets</p>

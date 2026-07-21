@@ -90,36 +90,4 @@ get_header();
         </div><a class="btn btn-outline" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request a quote <b>↗</b></a>
       </div>
     </section>
-  </main>
-  <footer>
-    <div class="footer-shell">
-      <h2 class="footer-heading">Ingredients crafted to impact</h2>
-      <p class="footer-subtitle">Connecting India’s finest dehydrated ingredients with product-makers around the world.
-      </p>
-      <form class="signup" onsubmit="event.preventDefault()">
-        <div class="signup-row"><span class="email-icon">⌑</span><input type="email" aria-label="Your email address"
-            placeholder="Your Email Address"><button type="submit">Get Started</button></div>
-      </form>
-      <div class="footer-columns">
-        <div>
-          <p>India · Global Trade<br>Serving international markets</p>
-        </div>
-        <div>
-          <p><a href="mailto:info@pureoriginagro.com">info@pureoriginagro.com</a><br><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request a quote
-              ↗</a></p>
-        </div>
-        <ul class="footer-socials">
-          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">LinkedIn</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Facebook</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Instagram</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Youtube</a></li>
-        </ul>
-        <div class="footer-copyright">
-          <p>© <b>Pure Origin Agro.</b><br>2026. All Rights Reserved.</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
-
-</html>
+<?php get_footer(); ?>
