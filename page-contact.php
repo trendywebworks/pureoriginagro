@@ -17,23 +17,7 @@ get_header();
     <div class="contact-panel reveal">
         <div class="label">Send an enquiry</div>
         <h2 class="heading">Tell us what<br><em>you need.</em></h2>
-        <form class="contact-form" onsubmit="event.preventDefault()">
-        <div class="field-grid"><label>Full name<input type="text" name="name"
-                placeholder="Your name"></label><label>Company<input type="text" name="company"
-                placeholder="Company name"></label></div>
-        <div class="field-grid"><label>Email<input type="email" name="email"
-                placeholder="name@example.com"></label><label>Phone<input type="tel" name="phone"
-                placeholder="+91 98765 43210"></label></div>
-        <label>Product interest<select name="product">
-            <option>Onion Powder</option>
-            <option>Beetroot Powder</option>
-            <option>Amla Powder</option>
-            <option>Bulk / custom enquiry</option>
-            </select></label>
-        <label>Message<textarea name="message" rows="5"
-            placeholder="Share quantity, destination country, packaging needs, or timeline."></textarea></label>
-        <button class="btn" type="submit">Submit enquiry <b>↗</b></button>
-        </form>
+        <?php echo apply_shortcodes( '[contact-form-7 id="247e679" title="Contact form 1"]' ); ?>
     </div>
     <aside class="contact-details reveal">
         <div class="label">Dummy contact details</div>
