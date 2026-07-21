@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
   <header id="site-header">
-      <div class="wrap nav"><a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><span class="logo-mark">✦</span><span>PURE ORIGIN<br>AGRO</span></a>
+      <div class="wrap nav"><a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="<?php esc_attr_e( 'Pure Origin Agro home', 'wptuts' ); ?>"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/logo-pure-origin-agro.png' ); ?>" alt="<?php esc_attr_e( 'Pure Origin Agro', 'wptuts' ); ?>"></a>
       <nav aria-label="<?php esc_attr_e( 'Main Navigation', 'wptuts' ); ?>">
         <?php
         wp_nav_menu( array(

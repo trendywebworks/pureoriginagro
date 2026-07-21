@@ -93,24 +93,16 @@ header.stuck {
 }
 
 .logo {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 12px;
-    font-size: 17px;
-    font-weight: 800;
-    line-height: .95;
-    letter-spacing: -.06em
+    width: 250px;
+    max-width: 100%
 }
 
-.logo-mark {
-    width: 42px;
-    height: 42px;
-    border: 2px solid var(--coral);
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    color: var(--coral);
-    font-size: 17px
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto
 }
 
 .nav nav {
@@ -1416,6 +1408,10 @@ footer {
     .nav {
         height: 76px;
         grid-template-columns: 1fr auto
+    }
+
+    .logo {
+        width: 190px
     }
 
     .nav nav,
