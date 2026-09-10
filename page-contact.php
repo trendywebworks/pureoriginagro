@@ -30,7 +30,7 @@ get_header();
         <div><span>Email</span><a href="mailto:info@pureoriginagro.com">info@pureoriginagro.com</a></div>
         <div><span>Phone</span><a href="tel:+919876543210">+91 98765 43210</a></div>
         <div><span>Office</span>
-            <p>123 Export Avenue, Ahmedabad, Gujarat, India</p>
+            <p>Sun Hairtez Suncity A201, Shyama Prasad Mukarji Ward, Jagdalpur, Bastar, Chhattisgarh, 494001</p>
         </div>
         <div><span>Hours</span>
             <p>Monday to Saturday · 10:00 AM - 6:00 PM IST</p>
