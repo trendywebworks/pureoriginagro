@@ -1,37 +1,5 @@
-<section class="products" id="products">
-    <div class="wrap">
-    <div class="section-head reveal">
-        <div>
-        <div class="label">Our product portfolio</div>
-        <h2 class="heading">Small list.<br><em>Big potential.</em></h2>
-        </div>
-        <p class="intro">Three high-value, naturally vibrant powders for brands that care about what's inside their
-        products.</p>
-    </div>
-    </div>
-    <div class="product-row reveal"><a class="product-card" href="products.html"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/onions.webp' ); ?>"
-        alt="Onion powder ingredient">
-        <div class="product-content"><span>DEHYDRATED VEGETABLE</span>
-        <h3>Onion Powder</h3>
-        </div>
-    </a><a class="product-card" href="products.html"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/beetroot.webp' ); ?>"
-        alt="Beetroot powder ingredient">
-        <div class="product-content"><span>DEHYDRATED VEGETABLE</span>
-        <h3>Beetroot Powder</h3>
-        </div>
-    </a>
-    <aside class="product-list">
-        <div>
-        <div class="micro">Also in our export range</div>
-        <p>Indian gooseberry, known for its distinct natural profile and formulation versatility.</p>
-        </div>
-        <div>
-        <ul>
-            <li>Amla Powder</li>
-            <li>Bulk supply enquiries</li>
-            <li>Custom trade support</li>
-        </ul><a class="btn btn-outline" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request a quote <b>↗</b></a>
-        </div>
-    </aside>
-    </div>
-</section>
+<section class="products" id="products"><div class="wrap"><div class="center-heading"><div class="label">NATURAL GOODNESS, VERSATILE APPLICATIONS</div><h2 class="heading">Our Products</h2><p class="intro">Pure ingredients for the products you’re proud to make.</p></div><div class="home-product-grid">
+<?php foreach ( array( array( 'onions', 'Onion Powder', 'Dehydrated vegetable', 'Natural flavour for seasonings, sauces and food formulations.' ), array( 'beetroot', 'Beetroot Powder', 'Dehydrated vegetable', 'Vibrant natural colour for food, wellness and cosmetic applications.' ), array( 'amla', 'Amla Powder', 'Dehydrated fruit', 'Indian gooseberry for versatile botanical formulations.' ) ) as $product ) : ?>
+<a class="home-product" href="<?php echo esc_url( home_url( '/products/#' . $product[0] ) ); ?>"><div class="home-product-image"><img loading="lazy" src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/product-' . $product[0] . '.webp' ); ?>" alt="<?php echo esc_attr( $product[1] ); ?>"></div><div class="home-product-copy"><span class="label"><?php echo esc_html( $product[2] ); ?></span><h3><?php echo esc_html( $product[1] ); ?></h3><p><?php echo esc_html( $product[3] ); ?></p><span class="product-link">Discover product <b>→</b></span></div></a>
+<?php endforeach; ?>
+</div><div class="products-action"><a class="btn" href="<?php echo esc_url( home_url( '/products/' ) ); ?>">View all products <b>→</b></a></div></div></section>

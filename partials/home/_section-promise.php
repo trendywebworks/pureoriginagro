@@ -1,7 +1,1 @@
-<section class="quote">
-    <div class="wrap reveal">
-    <div class="label">A simple promise</div>
-    <blockquote>We help great ingredients travel <em>farther</em> — with the care, clarity and consistency they
-        deserve.</blockquote><cite>PURE ORIGIN AGRO · INDIA TO THE WORLD</cite>
-    </div>
-</section>
+<section class="partner-cta"><div class="wrap"><div><div class="micro">LET’S GROW TOGETHER</div><h2>Good ingredients. Lasting partnerships.</h2><p>Bring the goodness of Pure Origin Agro to your next product.</p></div><a class="btn" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Get in touch with us <b>→</b></a></div></section>

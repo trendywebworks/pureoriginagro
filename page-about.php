@@ -15,7 +15,7 @@ get_header();
     <section class="about-story">
       <div class="wrap about-story-grid">
         <div class="about-story-media reveal"><img
-            src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=1000&q=85"
+            src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/quality.webp' ); ?>"
             alt="Fresh produce arranged for ingredient sourcing">
           <div class="story-badge"><b>India</b><span>Rooted at source. Prepared for global supply.</span></div>
         </div>
