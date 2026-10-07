@@ -20,11 +20,10 @@ get_header();
             <div class="label">Ingredient portfolio</div>
             <h2 class="heading">Three powders,<br><em>many possibilities.</em></h2>
           </div>
-          <p class="intro">Use these product cards as placeholders until final specifications, grades and packaging
-            details are confirmed.</p>
+          <p class="intro">Explore our natural powder range. Contact our team for specifications, availability and packaging options.</p>
         </div>
         <div class="catalog-grid reveal">
-          <article class="catalog-card"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/product-onions.webp' ); ?>"
+          <article class="catalog-card" id="onions"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/product-onions.webp' ); ?>"
               alt="Onion powder and onion ingredient">
             <div><span>DEHYDRATED VEGETABLE</span>
               <h3>Onion Powder</h3>
@@ -36,7 +35,7 @@ get_header();
               </ul><a class="text-arrow" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request details <b>→</b></a>
             </div>
           </article>
-          <article class="catalog-card"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/product-beetroot.webp' ); ?>" alt="Beetroot ingredient">
+          <article class="catalog-card" id="beetroot"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/product-beetroot.webp' ); ?>" alt="Beetroot ingredient">
             <div><span>DEHYDRATED VEGETABLE</span>
               <h3>Beetroot Powder</h3>
               <p>Known for its vibrant natural colour and formulation flexibility across food, wellness and cosmetic
@@ -48,7 +47,7 @@ get_header();
               </ul><a class="text-arrow" href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request details <b>→</b></a>
             </div>
           </article>
-          <article class="catalog-card"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/product-amla.webp' ); ?>" alt="Indian gooseberry amla fruit">
+          <article class="catalog-card" id="amla"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/product-amla.webp' ); ?>" alt="Indian gooseberry amla fruit">
             <div><span>DEHYDRATED FRUIT</span>
               <h3>Amla Powder</h3>
               <p>Indian gooseberry powder for product-makers seeking a distinct botanical ingredient with broad usage

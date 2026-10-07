@@ -3,6 +3,7 @@
 get_header(); 
 get_template_part( 'partials/home/_section', 'hero' );
 get_template_part( 'partials/home/_section', 'welcome' );
+get_template_part( 'partials/home/_section', 'values' );
 get_template_part( 'partials/home/_section', 'what-we-do' );
 get_template_part( 'partials/home/_section', 'products' );
 get_template_part( 'partials/home/_section', 'trade' );

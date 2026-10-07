@@ -1,36 +1,12 @@
 </main>
-  <footer>
-    <div class="footer-shell">
-      <h2 class="footer-heading">Ingredients crafted to impact</h2>
-      <p class="footer-subtitle">Connecting India’s finest dehydrated ingredients with product-makers around the world.
-      </p>
+<footer><div class="wrap footer-grid">
+  <div class="footer-brand"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/logo-pure-origin-agro.png' ); ?>" alt="Pure Origin Agro" width="250" height="60"></a><p>Bringing the goodness of Indian agriculture to product-makers around the world.</p><a href="mailto:info@pureoriginagro.com">info@pureoriginagro.com</a><p>India · Serving international markets</p></div>
+  <div><h3>Our products</h3><a href="<?php echo esc_url( home_url( '/products/#onions' ) ); ?>">Onion Powder</a><a href="<?php echo esc_url( home_url( '/products/#beetroot' ) ); ?>">Beetroot Powder</a><a href="<?php echo esc_url( home_url( '/products/#amla' ) ); ?>">Amla Powder</a></div>
+  <div><h3>Quick links</h3><a href="<?php echo esc_url( home_url( '/about-us/' ) ); ?>">About us</a><a href="<?php echo esc_url( home_url( '/services/' ) ); ?>">Our services</a><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Contact us</a><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Bulk enquiries</a></div>
+  <div class="footer-updates"><h3>Stay connected</h3><p>Ingredient news and updates from Pure Origin Agro.</p>
       <div class="footer-newsletter">
         <?php echo apply_shortcodes( '[contact-form-7 id="8b26d80" title="Newsletter Form"]' ); ?>
       </div>
-      <div class="footer-columns">
-        <div>
-          <p>India · Global Trade<br>Serving international markets</p>
-        </div>
-        <div>
-          <p><a href="mailto:info@pureoriginagro.com">info@pureoriginagro.com</a><br><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Request a quote
-              ↗</a></p>
-        </div>
-        <ul class="footer-socials">
-          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">LinkedIn</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Facebook</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Instagram</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/contact-us/' ) ); ?>">Youtube</a></li>
-        </ul>
-        <div class="footer-copyright">
-          <p>© <b>Pure Origin Agro.</b><br><?php echo date("Y"); ?>. All Rights Reserved.</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-  <?php wp_footer(); ?>
-
-</body>
-
-</html>
+</div></div><div class="wrap footer-bottom"><span>© <?php echo esc_html( date( 'Y' ) ); ?> Pure Origin Agro. All rights reserved.</span><span>Pure ingredients. Global possibilities.</span></div></footer>
+<?php wp_footer(); ?>
+</body></html>

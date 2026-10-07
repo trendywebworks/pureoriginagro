@@ -12,10 +12,10 @@ if ( ! function_exists( 'wpt_setup' ) ) {
 function pure_origin_fallback_main_menu() {
 	echo '<ul id="main-menu" class="main-menu-list">';
 	echo '<li><a href="' . esc_url( home_url( '/' ) ) . '">Home</a></li>';
-	echo '<li><a href="' . esc_url( home_url( '/about/' ) ) . '">About Us</a></li>';
+	echo '<li><a href="' . esc_url( home_url( '/about-us/' ) ) . '">About Us</a></li>';
 	echo '<li><a href="' . esc_url( home_url( '/services/' ) ) . '">Services</a></li>';
 	echo '<li><a href="' . esc_url( home_url( '/products/' ) ) . '">Products</a></li>';
-	echo '<li><a href="' . esc_url( home_url( '/contact/' ) ) . '">Contact</a></li>';
+	echo '<li><a href="' . esc_url( home_url( '/contact-us/' ) ) . '">Contact</a></li>';
 	echo '</ul>';
 }
 
